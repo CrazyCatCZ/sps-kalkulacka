@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kalkulačka"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="800">
     <Grid>
-
+        <Button Content="=" HorizontalAlignment="Left" Margin="473,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="423,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="373,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="+/-" HorizontalAlignment="Left" Margin="323,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="473,366,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="423,366,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="373,366,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="323,366,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="473,316,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="423,316,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="373,316,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="323,316,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="×" HorizontalAlignment="Left" Margin="473,266,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="423,266,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="373,266,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="323,266,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="÷" HorizontalAlignment="Left" Margin="473,216,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="2√x" HorizontalAlignment="Left" Margin="423,216,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="x²" HorizontalAlignment="Left" Margin="373,216,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="1/x" HorizontalAlignment="Left" Margin="323,216,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="⌫" HorizontalAlignment="Left" Margin="473,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="423,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="CE" HorizontalAlignment="Left" Margin="373,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="%" HorizontalAlignment="Left" Margin="323,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
     </Grid>
 </Window>
