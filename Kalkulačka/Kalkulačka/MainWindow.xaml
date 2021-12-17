@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <Grid>
-        <Button Content="=" HorizontalAlignment="Left" Margin="473,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Name="buttonEquals" Content="=" HorizontalAlignment="Left" Margin="473,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="," HorizontalAlignment="Left" Margin="423,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="0" HorizontalAlignment="Left" Margin="373,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="+/-" HorizontalAlignment="Left" Margin="323,416,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
@@ -27,9 +27,10 @@
         <Button Content="2√x" HorizontalAlignment="Left" Margin="423,216,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="x²" HorizontalAlignment="Left" Margin="373,216,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="1/x" HorizontalAlignment="Left" Margin="323,216,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
-        <Button Content="⌫" HorizontalAlignment="Left" Margin="473,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <Button Content="DEL" HorizontalAlignment="Left" Margin="473,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="C" HorizontalAlignment="Left" Margin="423,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="CE" HorizontalAlignment="Left" Margin="373,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
         <Button Content="%" HorizontalAlignment="Left" Margin="323,166,0,0" VerticalAlignment="Top" Click="Button_Click" Height="50" Width="50"/>
+        <TextBox Name="output" HorizontalAlignment="Left" Height="47" Margin="323,119,0,0" Text="&#xD;&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" TextAlignment="Right" FontSize="14"/>
     </Grid>
 </Window>

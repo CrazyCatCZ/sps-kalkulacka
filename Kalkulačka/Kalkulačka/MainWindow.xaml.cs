@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,8 @@ namespace Kalkulačka
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string _input = "";
+        private string _result;
         public MainWindow()
         {
             InitializeComponent();
@@ -27,7 +30,19 @@ namespace Kalkulačka
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Button clickedButton = (Button)sender;
+            string content = (string)clickedButton.Content;
 
+            if (content == "DEL") {
+                Debug.WriteLine(output.Text);
+                output.Text = output.Text.Remove(0,1);
+            }
+            else
+            {
+                // Zobrazení co uživatel zadal
+                output.Text += content;
+            }
+            
         }
     }
 }
