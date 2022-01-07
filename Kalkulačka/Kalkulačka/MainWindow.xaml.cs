@@ -13,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data;
+
 
 namespace Kalkulačka
 {
@@ -21,21 +23,33 @@ namespace Kalkulačka
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string _input = "";
-        private string _result;
         public MainWindow()
         {
             InitializeComponent();
         }
 
+        private void Evaluate()
+        {
+            DataTable dt = new DataTable();
+            string outputString = Convert.ToString(output.Text);
+            object result = dt.Compute(outputString, "");
+
+            Debug.WriteLine(result);
+
+
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //string lastClickedButton;
             Button clickedButton = (Button)sender;
             string content = (string)clickedButton.Content;
 
             if (content == "DEL") {
                 Debug.WriteLine(output.Text);
                 output.Text = output.Text.Remove(0,1);
+            }
+            else if (content == "=") {
+                Evaluate();
             }
             else
             {
