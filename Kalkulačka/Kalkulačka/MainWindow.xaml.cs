@@ -34,12 +34,13 @@ namespace Kalkulačka
             string outputString = Convert.ToString(output.Text);
             object result = dt.Compute(outputString, "");
 
-            Debug.WriteLine(result);
-
-
+            output.Clear();
+            output.Text += Convert.ToString(result);
+            Debug.WriteLine(output.Text);
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Debug.WriteLine(output.Text);
             //string lastClickedButton;
             Button clickedButton = (Button)sender;
             string content = (string)clickedButton.Content;

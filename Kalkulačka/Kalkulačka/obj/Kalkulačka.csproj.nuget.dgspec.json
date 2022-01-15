@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\plechac\\Desktop\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj": {}
+    "C:\\Users\\Admin\\github\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\plechac\\Desktop\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj": {
+    "C:\\Users\\Admin\\github\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\plechac\\Desktop\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\github\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj",
         "projectName": "Kalkulačka",
-        "projectPath": "C:\\Users\\plechac\\Desktop\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj",
-        "packagesPath": "C:\\Users\\plechac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\plechac\\Desktop\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\github\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\Kalkulačka.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\github\\sps-kalkulacka\\Kalkulačka\\Kalkulačka\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\plechac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
