@@ -36,26 +36,26 @@ namespace Kalkulačka
 
             output.Clear();
             output.Text += Convert.ToString(result);
-            Debug.WriteLine(output.Text);
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Debug.WriteLine(output.Text);
             //string lastClickedButton;
             Button clickedButton = (Button)sender;
-            string content = (string)clickedButton.Content;
+            string currentButton = (string)clickedButton.Tag;
 
-            if (content == "DEL") {
+            Debug.WriteLine(currentButton);
+
+            if (currentButton == "DEL") {
                 Debug.WriteLine(output.Text);
                 output.Text = output.Text.Remove(0,1);
             }
-            else if (content == "=") {
+            else if (currentButton == "=") {
                 Evaluate();
             }
             else
             {
                 // Zobrazení co uživatel zadal
-                output.Text += content;
+                output.Text += currentButton;
             }
             
         }
